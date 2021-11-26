@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380274207220",
+    "project_id": "banco-a1fad",
+    "storage_bucket": "banco-a1fad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380274207220:android:0ada03d5d2880b2de331a1",
+        "android_client_info": {
+          "package_name": "mx.edu.utng.friebaseappauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380274207220-9kolgminpe0vt9cfgmo3h1897hnpls9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL7YABvL1x_oNyi4Ju3eq2yP-dV3wpKak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380274207220-9kolgminpe0vt9cfgmo3h1897hnpls9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
