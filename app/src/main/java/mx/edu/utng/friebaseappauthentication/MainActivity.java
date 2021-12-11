@@ -14,6 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     Button btnLogOut;
+    Button btnCal;
     FirebaseAuth mAuth;
 
     @Override
@@ -23,10 +24,16 @@ public class MainActivity extends AppCompatActivity {
 
         btnLogOut = findViewById(R.id.btnLogout);
         mAuth = FirebaseAuth.getInstance();
+        btnCal = findViewById(R.id.btnCal);
 
         btnLogOut.setOnClickListener(view -> {
             mAuth.signOut();
             startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        });
+
+        btnCal.setOnClickListener(view -> {
+            mAuth.signOut();
+            startActivity(new Intent(MainActivity.this, CalBanActivity.class));
         });
     }
 
